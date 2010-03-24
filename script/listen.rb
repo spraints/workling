@@ -3,7 +3,7 @@ puts '=> Loading Workling...'
 
 require File.dirname(__FILE__) + '/../lib/workling/remote'
 require File.dirname(__FILE__) + '/../lib/workling/remote/invokers/basic_poller'
-# require File.dirname(__FILE__) + '/../lib/workling/remote/invokers/threaded_poller'
+require File.dirname(__FILE__) + '/../lib/workling/remote/invokers/threaded_poller'
 require File.dirname(__FILE__) + '/../lib/workling/remote/invokers/eventmachine_subscriber'
 require File.dirname(__FILE__) + '/../lib/workling/routing/class_and_method_routing'
 
